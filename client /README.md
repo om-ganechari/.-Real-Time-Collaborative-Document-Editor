@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+Collab-Editor
+A Real-time Collaborative Editor using Node.js, WebSockets, and React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
+Collab-Editor is a real-time collaborative editor that allows multiple users to edit a document simultaneously. This project uses Node.js, WebSockets, and React to provide a seamless collaborative experience.
 
-## Available Scripts
+Features
+Real-time collaborative editing
+Runs locally on your machine
+Supports multiple users
+Technologies Used
+Node.js
+WebSocket
+React
+Dependencies
+express
+ws
+cors
+Getting Started
+To run the Collab-Editor, follow these steps:
 
-In the project directory, you can run:
+Clone the repository: git clone https://github.com/your-username/Collab-Editor.git
+Install dependencies: npm install express ws cors
+Start the server: npm start server.js
+Open multiple browser windows and navigate to http://localhost:3000 to start collaborating
+How it Works
+The Collab-Editor uses WebSockets to establish a real-time connection between the client and server. When a user makes changes to the document, the changes are broadcasted to all connected clients using WebSockets. The React frontend updates the document in real-time, providing a seamless collaborative experience.
 
-### `npm start`
+Tutorial
+A step-by-step video tutorial is available on YouTube to help you get started with the Collab-Editor:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Watch the tutorial on YouTube
+This tutorial covers the setup, features, and usage of the Collab-Editor, and is a great resource for those who prefer a visual guide.
